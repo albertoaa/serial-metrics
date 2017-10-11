@@ -43,7 +43,7 @@ class Funciones(tk.Frame):
         buttonIniciar.grid(row=6, column=3, pady=(20,0), padx=(20,0))
 
     def iniciarFuncion(self, message):
-        # ser = serial.Serial('COM4', '115200', timeout=3)
+        # ser = serial.Serial('COM4', 115200, timeout=3)
         # ser.close()
         # ser.open()
         # ser.write(message)
